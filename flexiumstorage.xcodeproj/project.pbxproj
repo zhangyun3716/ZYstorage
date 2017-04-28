@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546DAD561EB2C28B00460306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DAD551EB2C28B00460306 /* main.m */; };
+		546DAD591EB2C28B00460306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DAD581EB2C28B00460306 /* AppDelegate.m */; };
+		546DAD5C1EB2C28B00460306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DAD5B1EB2C28B00460306 /* ViewController.m */; };
+		546DAD5F1EB2C28B00460306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546DAD5D1EB2C28B00460306 /* Main.storyboard */; };
+		546DAD611EB2C28B00460306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546DAD601EB2C28B00460306 /* Assets.xcassets */; };
+		546DAD641EB2C28B00460306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546DAD621EB2C28B00460306 /* LaunchScreen.storyboard */; };
+		546DAD6F1EB2C28B00460306 /* flexiumstorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DAD6E1EB2C28B00460306 /* flexiumstorageTests.m */; };
+		546DAD7A1EB2C28B00460306 /* flexiumstorageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DAD791EB2C28B00460306 /* flexiumstorageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		546DAD6B1EB2C28B00460306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546DAD491EB2C28B00460306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546DAD501EB2C28B00460306;
+			remoteInfo = flexiumstorage;
+		};
+		546DAD761EB2C28B00460306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546DAD491EB2C28B00460306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546DAD501EB2C28B00460306;
+			remoteInfo = flexiumstorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546DAD511EB2C28B00460306 /* flexiumstorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flexiumstorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		546DAD551EB2C28B00460306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		546DAD571EB2C28B00460306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546DAD581EB2C28B00460306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		546DAD5A1EB2C28B00460306 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		546DAD5B1EB2C28B00460306 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		546DAD5E1EB2C28B00460306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546DAD601EB2C28B00460306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546DAD631EB2C28B00460306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		546DAD651EB2C28B00460306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546DAD6A1EB2C28B00460306 /* flexiumstorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexiumstorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		546DAD6E1EB2C28B00460306 /* flexiumstorageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flexiumstorageTests.m; sourceTree = "<group>"; };
+		546DAD701EB2C28B00460306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546DAD751EB2C28B00460306 /* flexiumstorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexiumstorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		546DAD791EB2C28B00460306 /* flexiumstorageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flexiumstorageUITests.m; sourceTree = "<group>"; };
+		546DAD7B1EB2C28B00460306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546DAD4E1EB2C28B00460306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546DAD671EB2C28B00460306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546DAD721EB2C28B00460306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546DAD481EB2C28B00460306 = {
+			isa = PBXGroup;
+			children = (
+				546DAD531EB2C28B00460306 /* flexiumstorage */,
+				546DAD6D1EB2C28B00460306 /* flexiumstorageTests */,
+				546DAD781EB2C28B00460306 /* flexiumstorageUITests */,
+				546DAD521EB2C28B00460306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546DAD521EB2C28B00460306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546DAD511EB2C28B00460306 /* flexiumstorage.app */,
+				546DAD6A1EB2C28B00460306 /* flexiumstorageTests.xctest */,
+				546DAD751EB2C28B00460306 /* flexiumstorageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546DAD531EB2C28B00460306 /* flexiumstorage */ = {
+			isa = PBXGroup;
+			children = (
+				546DAD571EB2C28B00460306 /* AppDelegate.h */,
+				546DAD581EB2C28B00460306 /* AppDelegate.m */,
+				546DAD5A1EB2C28B00460306 /* ViewController.h */,
+				546DAD5B1EB2C28B00460306 /* ViewController.m */,
+				546DAD5D1EB2C28B00460306 /* Main.storyboard */,
+				546DAD601EB2C28B00460306 /* Assets.xcassets */,
+				546DAD621EB2C28B00460306 /* LaunchScreen.storyboard */,
+				546DAD651EB2C28B00460306 /* Info.plist */,
+				546DAD541EB2C28B00460306 /* Supporting Files */,
+			);
+			path = flexiumstorage;
+			sourceTree = "<group>";
+		};
+		546DAD541EB2C28B00460306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546DAD551EB2C28B00460306 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		546DAD6D1EB2C28B00460306 /* flexiumstorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				546DAD6E1EB2C28B00460306 /* flexiumstorageTests.m */,
+				546DAD701EB2C28B00460306 /* Info.plist */,
+			);
+			path = flexiumstorageTests;
+			sourceTree = "<group>";
+		};
+		546DAD781EB2C28B00460306 /* flexiumstorageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				546DAD791EB2C28B00460306 /* flexiumstorageUITests.m */,
+				546DAD7B1EB2C28B00460306 /* Info.plist */,
+			);
+			path = flexiumstorageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546DAD501EB2C28B00460306 /* flexiumstorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546DAD7E1EB2C28B00460306 /* Build configuration list for PBXNativeTarget "flexiumstorage" */;
+			buildPhases = (
+				546DAD4D1EB2C28B00460306 /* Sources */,
+				546DAD4E1EB2C28B00460306 /* Frameworks */,
+				546DAD4F1EB2C28B00460306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flexiumstorage;
+			productName = flexiumstorage;
+			productReference = 546DAD511EB2C28B00460306 /* flexiumstorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546DAD691EB2C28B00460306 /* flexiumstorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546DAD811EB2C28B00460306 /* Build configuration list for PBXNativeTarget "flexiumstorageTests" */;
+			buildPhases = (
+				546DAD661EB2C28B00460306 /* Sources */,
+				546DAD671EB2C28B00460306 /* Frameworks */,
+				546DAD681EB2C28B00460306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546DAD6C1EB2C28B00460306 /* PBXTargetDependency */,
+			);
+			name = flexiumstorageTests;
+			productName = flexiumstorageTests;
+			productReference = 546DAD6A1EB2C28B00460306 /* flexiumstorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		546DAD741EB2C28B00460306 /* flexiumstorageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546DAD841EB2C28B00460306 /* Build configuration list for PBXNativeTarget "flexiumstorageUITests" */;
+			buildPhases = (
+				546DAD711EB2C28B00460306 /* Sources */,
+				546DAD721EB2C28B00460306 /* Frameworks */,
+				546DAD731EB2C28B00460306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546DAD771EB2C28B00460306 /* PBXTargetDependency */,
+			);
+			name = flexiumstorageUITests;
+			productName = flexiumstorageUITests;
+			productReference = 546DAD751EB2C28B00460306 /* flexiumstorageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546DAD491EB2C28B00460306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FLEXium;
+				TargetAttributes = {
+					546DAD501EB2C28B00460306 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					546DAD691EB2C28B00460306 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 546DAD501EB2C28B00460306;
+					};
+					546DAD741EB2C28B00460306 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 546DAD501EB2C28B00460306;
+					};
+				};
+			};
+			buildConfigurationList = 546DAD4C1EB2C28B00460306 /* Build configuration list for PBXProject "flexiumstorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 546DAD481EB2C28B00460306;
+			productRefGroup = 546DAD521EB2C28B00460306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546DAD501EB2C28B00460306 /* flexiumstorage */,
+				546DAD691EB2C28B00460306 /* flexiumstorageTests */,
+				546DAD741EB2C28B00460306 /* flexiumstorageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546DAD4F1EB2C28B00460306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546DAD641EB2C28B00460306 /* LaunchScreen.storyboard in Resources */,
+				546DAD611EB2C28B00460306 /* Assets.xcassets in Resources */,
+				546DAD5F1EB2C28B00460306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546DAD681EB2C28B00460306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546DAD731EB2C28B00460306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546DAD4D1EB2C28B00460306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546DAD5C1EB2C28B00460306 /* ViewController.m in Sources */,
+				546DAD591EB2C28B00460306 /* AppDelegate.m in Sources */,
+				546DAD561EB2C28B00460306 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546DAD661EB2C28B00460306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546DAD6F1EB2C28B00460306 /* flexiumstorageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546DAD711EB2C28B00460306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546DAD7A1EB2C28B00460306 /* flexiumstorageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		546DAD6C1EB2C28B00460306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546DAD501EB2C28B00460306 /* flexiumstorage */;
+			targetProxy = 546DAD6B1EB2C28B00460306 /* PBXContainerItemProxy */;
+		};
+		546DAD771EB2C28B00460306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546DAD501EB2C28B00460306 /* flexiumstorage */;
+			targetProxy = 546DAD761EB2C28B00460306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		546DAD5D1EB2C28B00460306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546DAD5E1EB2C28B00460306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		546DAD621EB2C28B00460306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546DAD631EB2C28B00460306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546DAD7C1EB2C28B00460306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		546DAD7D1EB2C28B00460306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546DAD7F1EB2C28B00460306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flexiumstorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumstorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		546DAD801EB2C28B00460306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flexiumstorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumstorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		546DAD821EB2C28B00460306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flexiumstorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumstorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexiumstorage.app/flexiumstorage";
+			};
+			name = Debug;
+		};
+		546DAD831EB2C28B00460306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flexiumstorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumstorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexiumstorage.app/flexiumstorage";
+			};
+			name = Release;
+		};
+		546DAD851EB2C28B00460306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flexiumstorageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumstorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flexiumstorage;
+			};
+			name = Debug;
+		};
+		546DAD861EB2C28B00460306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flexiumstorageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.flexiumstorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flexiumstorage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546DAD4C1EB2C28B00460306 /* Build configuration list for PBXProject "flexiumstorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546DAD7C1EB2C28B00460306 /* Debug */,
+				546DAD7D1EB2C28B00460306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546DAD7E1EB2C28B00460306 /* Build configuration list for PBXNativeTarget "flexiumstorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546DAD7F1EB2C28B00460306 /* Debug */,
+				546DAD801EB2C28B00460306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		546DAD811EB2C28B00460306 /* Build configuration list for PBXNativeTarget "flexiumstorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546DAD821EB2C28B00460306 /* Debug */,
+				546DAD831EB2C28B00460306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		546DAD841EB2C28B00460306 /* Build configuration list for PBXNativeTarget "flexiumstorageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546DAD851EB2C28B00460306 /* Debug */,
+				546DAD861EB2C28B00460306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 546DAD491EB2C28B00460306 /* Project object */;
+}
