@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "546DAD501EB2C28B00460306"
-               BuildableName = "flexiumstorage.app"
+               BuildableName = "&#x5132;&#x4f4d;&#x7cfb;&#x7d71;.app"
                BlueprintName = "flexiumstorage"
                ReferencedContainer = "container:flexiumstorage.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "546DAD501EB2C28B00460306"
-            BuildableName = "flexiumstorage.app"
+            BuildableName = "&#x5132;&#x4f4d;&#x7cfb;&#x7d71;.app"
             BlueprintName = "flexiumstorage"
             ReferencedContainer = "container:flexiumstorage.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "546DAD501EB2C28B00460306"
-            BuildableName = "flexiumstorage.app"
+            BuildableName = "&#x5132;&#x4f4d;&#x7cfb;&#x7d71;.app"
             BlueprintName = "flexiumstorage"
             ReferencedContainer = "container:flexiumstorage.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "546DAD501EB2C28B00460306"
-            BuildableName = "flexiumstorage.app"
+            BuildableName = "&#x5132;&#x4f4d;&#x7cfb;&#x7d71;.app"
             BlueprintName = "flexiumstorage"
             ReferencedContainer = "container:flexiumstorage.xcodeproj">
          </BuildableReference>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="samplingcheckViewController">
+            <connections>
+                <outlet property="beginscanlable" destination="mUE-Br-Eaj" id="1dG-fv-RTa"/>
+                <outlet property="empno" destination="e0W-na-fUK" id="CUH-OD-Md5"/>
+                <outlet property="fanhuijieguo" destination="8ne-4L-8eQ" id="NLM-Do-cvG"/>
+                <outlet property="inboxno" destination="2HB-tj-eO2" id="64s-Cf-quY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="工號：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y59-Dv-MIv">
+                    <rect key="frame" x="8" y="166" width="110" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暫無數據" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0W-na-fUK">
+                    <rect key="frame" x="126" y="166" width="194" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="彩盒號：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xO-OR-RQ4">
+                    <rect key="frame" x="8" y="197" width="110" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暫無數據" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HB-tj-eO2">
+                    <rect key="frame" x="126" y="197" width="194" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tny-sL-Ypg">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
+                    <subviews>
+                        <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiB-9r-IKA">
+                            <rect key="frame" x="199" y="8" width="91" height="82"/>
+                            <color key="backgroundColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="91" id="5Nv-p6-1RM"/>
+                                <constraint firstAttribute="height" constant="82" id="Ugg-Oc-cxR"/>
+                            </constraints>
+                            <color key="tintColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" backgroundImage="扫一扫2.png">
+                                <color key="titleColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="beginscan:" destination="-1" eventType="touchUpInside" id="ccl-lT-VNa"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="掃描員工工卡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUE-Br-Eaj">
+                            <rect key="frame" x="186" y="85" width="116" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="116" id="Oqe-Z7-3D3"/>
+                                <constraint firstAttribute="height" constant="31" id="mTY-1H-kdS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="116" id="FHg-QC-wyo"/>
+                        <constraint firstAttribute="bottom" secondItem="mUE-Br-Eaj" secondAttribute="bottom" id="blV-uW-lVs"/>
+                        <constraint firstAttribute="trailing" secondItem="wiB-9r-IKA" secondAttribute="trailing" constant="30" id="gaS-tA-Uge"/>
+                        <constraint firstAttribute="trailing" secondItem="mUE-Br-Eaj" secondAttribute="trailing" constant="18" id="o7Y-Ea-saH"/>
+                        <constraint firstItem="wiB-9r-IKA" firstAttribute="top" secondItem="Tny-sL-Ypg" secondAttribute="top" constant="8" id="qQp-S1-nXe"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暫無數據" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ne-4L-8eQ">
+                    <rect key="frame" x="126" y="228" width="194" height="143"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="返回信息：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypT-9G-1kQ">
+                    <rect key="frame" x="13" y="286" width="110" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Tny-sL-Ypg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="B6b-7f-ZVD"/>
+                <constraint firstAttribute="trailing" secondItem="Tny-sL-Ypg" secondAttribute="trailing" id="M09-YG-QoZ"/>
+                <constraint firstItem="Tny-sL-Ypg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Se0-Aa-uWD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="229" y="204"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="扫一扫2.png" width="200" height="200"/>
+    </resources>
+</document>

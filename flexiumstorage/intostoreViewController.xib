@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="intostoreViewController">
+            <connections>
+                <outlet property="emplable" destination="g2k-gh-Y4G" id="jF3-Gs-8sZ"/>
+                <outlet property="fanhuimessage" destination="xBw-ZZ-BTa" id="5Iz-bG-pyc"/>
+                <outlet property="scanbtn" destination="Xy0-9o-aKm" id="ssl-FZ-gpi"/>
+                <outlet property="scantext" destination="zOX-i2-HOK" id="kX1-Os-fre"/>
+                <outlet property="storageno" destination="zn7-DN-GCO" id="TJq-za-R51"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="xianghaolable" destination="Xai-1H-u4v" id="qy4-Hr-hnY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="工號：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hK-P5-v1O">
+                    <rect key="frame" x="8" y="166" width="110" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暫無數據" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2k-gh-Y4G">
+                    <rect key="frame" x="126" y="166" width="194" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="儲位編號：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEG-sa-nrQ">
+                    <rect key="frame" x="8" y="197" width="110" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暫無數據" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zn7-DN-GCO">
+                    <rect key="frame" x="126" y="197" width="194" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="包裝箱號：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3e-xe-0N8">
+                    <rect key="frame" x="8" y="228" width="110" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暫無數據" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xai-1H-u4v">
+                    <rect key="frame" x="126" y="228" width="194" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暫無數據" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBw-ZZ-BTa">
+                    <rect key="frame" x="126" y="264" width="194" height="159"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ecf-3L-axp">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
+                    <subviews>
+                        <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xy0-9o-aKm">
+                            <rect key="frame" x="199" y="8" width="91" height="82"/>
+                            <color key="backgroundColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="91" id="I2f-bU-iAz"/>
+                                <constraint firstAttribute="height" constant="82" id="cRU-GN-10l"/>
+                            </constraints>
+                            <color key="tintColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" backgroundImage="扫一扫2.png">
+                                <color key="titleColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="beginscan:" destination="-1" eventType="touchUpInside" id="nEm-gn-2EL"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="掃描員工工卡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOX-i2-HOK">
+                            <rect key="frame" x="186" y="85" width="116" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="116" id="M0N-yS-pny"/>
+                                <constraint firstAttribute="height" constant="31" id="cfi-Hv-00y"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.2148175336" green="0.53642503789999996" blue="0.98253442980000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="116" id="770-cC-AqA"/>
+                        <constraint firstAttribute="trailing" secondItem="Xy0-9o-aKm" secondAttribute="trailing" constant="30" id="U1b-HZ-v4R"/>
+                        <constraint firstItem="Xy0-9o-aKm" firstAttribute="top" secondItem="Ecf-3L-axp" secondAttribute="top" constant="8" id="aUO-ge-uLy"/>
+                        <constraint firstAttribute="bottom" secondItem="zOX-i2-HOK" secondAttribute="bottom" id="mqb-84-1tO"/>
+                        <constraint firstAttribute="trailing" secondItem="zOX-i2-HOK" secondAttribute="trailing" constant="18" id="ojB-pW-8ll"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="返回信息：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8k-oV-3aT">
+                    <rect key="frame" x="8" y="332" width="110" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ecf-3L-axp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IYr-ox-yk2"/>
+                <constraint firstAttribute="trailing" secondItem="Ecf-3L-axp" secondAttribute="trailing" id="gqc-6c-zZN"/>
+                <constraint firstItem="Ecf-3L-axp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kSo-d7-6yc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="扫一扫2.png" width="200" height="200"/>
+    </resources>
+</document>
